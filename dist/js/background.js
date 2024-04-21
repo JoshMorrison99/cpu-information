@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.runtime.onMessage.addListener((function(e,n,t){if("getCPUInfo"===e.action)return chrome.system.cpu.getInfo((function(e){t(e)})),!0}))})();

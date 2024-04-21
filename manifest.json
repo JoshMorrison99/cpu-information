@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "name": "CPU Information",
+    "description": "CPU Information",
+    "action": {
+        "default_popup": "js/index.html",
+        "default_title": "CPU Information"
+    },
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "permissions": [
+        "system.cpu"
+    ]
+}
